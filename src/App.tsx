@@ -1,13 +1,8 @@
 import "./App.css"
+import JylyView from "./views/JylyView"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className="text-6xl font-bold">Discaddy</h1>
-      </header>
-    </div>
-  )
+const App = () => {
+  return <JylyView />
 }
 
 export default App
